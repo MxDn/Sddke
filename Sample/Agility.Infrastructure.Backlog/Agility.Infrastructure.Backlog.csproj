@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="Y:\workspaces\mxdn\sddke\src\Directory.Build.props" />
+
+  <PropertyGroup>
+    <PackageId>Agility.Infrastructure.Backlog</PackageId>
+    <Title>Agility.Infrastructure.Backlog</Title>
+    <AssemblyName>Agility.Infrastructure.Backlog</AssemblyName>
+    <Description></Description>
+    <Summary></Summary>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sddke.Shared.Infrastructure" Version="0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agility.Application.Backlog\Agility.Application.Backlog.csproj" />
+  </ItemGroup>
+</Project>

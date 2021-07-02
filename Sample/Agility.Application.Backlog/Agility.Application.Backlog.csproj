@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="Y:\workspaces\mxdn\sddke\src\Directory.Build.props" />
+
+	<PropertyGroup>
+		<PackageId>Agility.Application.Backlog</PackageId>
+		<Title>Agility.Application.Backlog</Title>
+		<AssemblyName>Agility.Application.Backlog</AssemblyName>
+		<Description></Description>
+		<Summary></Summary>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Commands\CreateProduct\CreateProductCommand.cs~RF1a41552.TMP" />
+	  <None Remove="Queries\RetrieveProduct\Class1.cs~RF602bf01.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Sddke.Shared.Application" Version="0.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Agility.Domain.Backlog\Agility.Domain.Backlog.csproj" />
+	</ItemGroup>
+ 
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <Import Project="..\Directory.Build.props" />
+  <PropertyGroup> 
+    <PackageId>Sddke.Shared.Infrastructure</PackageId>
+    <Title>Sddke.Shared.Infrastructure</Title>
+    <AssemblyName>Sddke.Shared.Infrastructure</AssemblyName>
+    <Description></Description>
+    <Summary></Summary> 
+  </PropertyGroup> 
+    <ItemGroup>
+    <ProjectReference Include="..\Sddke.Shared.Application\Sddke.Shared.Application.csproj" />
+  </ItemGroup>
+</Project>
