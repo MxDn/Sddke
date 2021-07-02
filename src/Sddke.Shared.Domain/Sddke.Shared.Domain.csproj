@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\Directory.Build.props" /> 
+  
+  <PropertyGroup> 
+    <PackageId>Sddke.Shared.Domain</PackageId>
+    <Title>Sddke.Shared.Domain</Title>
+    <AssemblyName>Sddke.Shared.Domain</AssemblyName>
+    <Description></Description>
+    <Summary></Summary> 
+  </PropertyGroup> 
+</Project>
