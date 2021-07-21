@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="Y:\workspaces\mxdn\sddke\src\Directory.Build.props" />
+
+	<PropertyGroup>
+		<PackageId>Agility.Domain.Backlog</PackageId>
+		<Title>Agility.Domain.Backlog</Title>
+		<AssemblyName>Agility.Domain.Backlog</AssemblyName>
+		<Description></Description>
+		<Summary></Summary>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="BackLog.cs~RF64ee871.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Sddke.Shared.Domain" Version="0.0.1" />
+	</ItemGroup>
+
+</Project>

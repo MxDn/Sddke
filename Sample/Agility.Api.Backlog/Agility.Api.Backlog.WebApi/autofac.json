@@ -1,0 +1,22 @@
+﻿{
+  "defaultAssembly": "Agility.Api.Backlog.Infrastructure",
+  "modules": [
+    {
+      "type": "Agility.Api.Backlog.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "Agility.Api.Backlog.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "Agility.Api.Backlog.Infrastructure.Modules.InfrastructureModule",
+      "properties": {
+        "ConnectionString": "mongodb://10.0.75.1:27017",
+        "DatabaseName": "Agility.Api.Backlog-V01"
+      }
+    }
+  ]
+}
