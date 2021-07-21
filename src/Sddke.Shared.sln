@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sddke.Shared.Infrastructure", "Sddke.Shared.Infrastructure\Sddke.Shared.Infrastructure.csproj", "{D61005B9-2B5C-48EA-A5F0-F4F0A13F93B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sddke.Shared.Application", "Sddke.Shared.Application\Sddke.Shared.Application.csproj", "{2404E9F6-6E6D-4B9D-BB0B-6C7C3B203378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sddke.Shared.Domain", "Sddke.Shared.Domain\Sddke.Shared.Domain.csproj", "{D204E6DA-D1CA-48A2-9271-6D0468AE5933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{183E6ACD-0B42-41B0-ACBC-8DA37D6CDFEE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\clean.bat = ..\clean.bat
+		Directory.Build.props = Directory.Build.props
+		..\LICENSE = ..\LICENSE
+		..\NuGet.config = ..\NuGet.config
+		..\PushLocal.bat = ..\PushLocal.bat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agility.Domain.Backlog", "..\Sample\Agility.Domain.Backlog\Agility.Domain.Backlog.csproj", "{4BE5BAD4-5992-4E2F-9F40-FF50C838F128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agility", "Agility", "{DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agility.Backlog.Test", "..\Sample\Agility.Backlog.Test\Agility.Backlog.Test.csproj", "{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agility.Application.Backlog", "..\Sample\Agility.Application.Backlog\Agility.Application.Backlog.csproj", "{777CA399-06FA-4799-827C-DA9E9D5AEB19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agility.BootStrap", "Agility.BootStrap\Agility.BootStrap.csproj", "{33081A6F-9A7A-46D4-B83F-190895A58F13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agility.Infrastructure.Backlog", "..\Sample\Agility.Infrastructure.Backlog\Agility.Infrastructure.Backlog.csproj", "{21502AC5-9F78-4A29-97F0-85A16029A571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61005B9-2B5C-48EA-A5F0-F4F0A13F93B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61005B9-2B5C-48EA-A5F0-F4F0A13F93B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61005B9-2B5C-48EA-A5F0-F4F0A13F93B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61005B9-2B5C-48EA-A5F0-F4F0A13F93B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2404E9F6-6E6D-4B9D-BB0B-6C7C3B203378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2404E9F6-6E6D-4B9D-BB0B-6C7C3B203378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2404E9F6-6E6D-4B9D-BB0B-6C7C3B203378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2404E9F6-6E6D-4B9D-BB0B-6C7C3B203378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D204E6DA-D1CA-48A2-9271-6D0468AE5933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D204E6DA-D1CA-48A2-9271-6D0468AE5933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D204E6DA-D1CA-48A2-9271-6D0468AE5933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D204E6DA-D1CA-48A2-9271-6D0468AE5933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE5BAD4-5992-4E2F-9F40-FF50C838F128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE5BAD4-5992-4E2F-9F40-FF50C838F128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE5BAD4-5992-4E2F-9F40-FF50C838F128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE5BAD4-5992-4E2F-9F40-FF50C838F128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777CA399-06FA-4799-827C-DA9E9D5AEB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777CA399-06FA-4799-827C-DA9E9D5AEB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777CA399-06FA-4799-827C-DA9E9D5AEB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777CA399-06FA-4799-827C-DA9E9D5AEB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33081A6F-9A7A-46D4-B83F-190895A58F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33081A6F-9A7A-46D4-B83F-190895A58F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33081A6F-9A7A-46D4-B83F-190895A58F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33081A6F-9A7A-46D4-B83F-190895A58F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21502AC5-9F78-4A29-97F0-85A16029A571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21502AC5-9F78-4A29-97F0-85A16029A571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21502AC5-9F78-4A29-97F0-85A16029A571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21502AC5-9F78-4A29-97F0-85A16029A571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BE5BAD4-5992-4E2F-9F40-FF50C838F128} = {DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}
+		{471160DF-E7E7-4D04-BF1E-95AF9B35D9D9} = {DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}
+		{777CA399-06FA-4799-827C-DA9E9D5AEB19} = {DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}
+		{33081A6F-9A7A-46D4-B83F-190895A58F13} = {DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}
+		{21502AC5-9F78-4A29-97F0-85A16029A571} = {DD4928D5-B1F2-4990-9F01-9EC57DE9D3C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F58D591-85C4-418C-9E3D-ADC0AA9A5385}
+	EndGlobalSection
+EndGlobal

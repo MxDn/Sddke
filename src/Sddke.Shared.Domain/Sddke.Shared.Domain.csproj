@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\Directory.Build.props" /> 
+  
+  <PropertyGroup> 
+    <PackageId>Sddke.Shared.Domain</PackageId>
+    <Title>Sddke.Shared.Domain</Title>
+    <AssemblyName>Sddke.Shared.Domain</AssemblyName>
+    <Description></Description>
+    <Summary></Summary>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile> 
+  </PropertyGroup> 
+  
+  <ItemGroup>
+    <None Remove="Guard.cs~RF607f03a.TMP" />
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup> 
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="Y:\workspaces\mxdn\sddke\src\Directory.Build.props" />
+
+  <PropertyGroup>
+    <PackageId>Agility.BootStrap.Backlog</PackageId>
+    <Title>Agility.BootStrap.Backlog</Title>
+    <AssemblyName>Agility.BootStrap.Backlog</AssemblyName>
+    <Description></Description>
+    <Summary></Summary>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Sample\Agility.Application.Backlog\Agility.Application.Backlog.csproj" />
+    <ProjectReference Include="..\..\Sample\Agility.Infrastructure.Backlog\Agility.Infrastructure.Backlog.csproj" />
+  </ItemGroup>
+
+</Project>
