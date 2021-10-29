@@ -15,8 +15,8 @@ namespace Sddke.Shared.Domain
 
         }
         public static ValueObject NullValueObject = new Null();
-        private static List<PropertyInfo> properties;
-        private static List<FieldInfo> fields;
+        private static IEnumerable<PropertyInfo> properties = new List<PropertyInfo>();
+        private static IEnumerable<FieldInfo> fields = new List<FieldInfo>();
 
         /// <summary>
         /// The op_ equality.
@@ -99,11 +99,11 @@ namespace Sddke.Shared.Domain
         /// <returns>The result.</returns>
         private IEnumerable<PropertyInfo> GetProperties()
         {
-            if (properties == null)
+            if (properties.Any())
             {
-                properties = GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public).ToList();
+                return properties;
             }
-
+            properties = GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public).ToList();
             return properties;
         }
 

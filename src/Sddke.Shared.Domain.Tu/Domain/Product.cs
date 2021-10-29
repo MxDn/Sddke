@@ -3,7 +3,7 @@ using Sddke.Shared.Domain;
 
 namespace Sddke.Shared.Tu.Domain
 {
-    public class Product : Entity, IAggregateRoot
+    public class Product : Entity, IAggregate
     {
         public Product(Name name) : this(Guid.NewGuid(), name)
         {

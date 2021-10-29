@@ -2,7 +2,6 @@
 
 namespace Sddke.Shared.Domain
 {
-
     /// <summary>
     /// The guard.
     /// </summary>

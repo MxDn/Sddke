@@ -1,12 +1,10 @@
 using System;
-using System.Diagnostics;
 using Sddke.Shared.Application.Ports;
-using  Sddke.Shared.Application.Features.Command;
 using Xunit.Abstractions;
 
 namespace Sddke.Shared.Tu.Application
 {
-        public class TestPerformanceLogger : ICollaborator
+    public class TestPerformanceLogger : ICollaborator
         {
             private ITestOutputHelper output;
 

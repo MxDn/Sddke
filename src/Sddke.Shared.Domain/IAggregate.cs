@@ -4,7 +4,7 @@
     /// <summary>
     /// The i aggregate root.
     /// </summary>
-    public interface IAggregateRoot
+    public interface IAggregate
     {
 
     }
