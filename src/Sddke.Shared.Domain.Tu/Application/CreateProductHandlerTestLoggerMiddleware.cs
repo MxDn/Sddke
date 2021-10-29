@@ -1,7 +1,4 @@
-using System.Collections.Generic;
 using Sddke.Shared.Application.Features.Command;
-using Sddke.Shared.Application.Ports;
-using Sddke.Shared.Tu.Application.Commands;
 using Sddke.Shared.Tu.Application.Commands.CreateProduct;
 namespace Sddke.Shared.Tu.Application
 {
@@ -17,7 +14,7 @@ namespace Sddke.Shared.Tu.Application
             base(next, collaborator)
         {
         }
-         
+
         public override ICommandResponse Handle(ICommand command)
         {
             collaborator.Log(command);
